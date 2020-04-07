@@ -12,9 +12,9 @@ public class Hw1 {
 
     static void printSign(int a) {
         if (a>=0)
-            System.out.println("Число положительное");
+            System.out.println("Р§РёСЃР»Рѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ");
         else
-            System.out.println("Число отрицательное");
+            System.out.println("Р§РёСЃР»Рѕ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ");
     }
 
     static boolean isNegative(int a) {
@@ -22,14 +22,14 @@ public class Hw1 {
     }
 
     static void printHello(String name) {
-        System.out.println("Привет, " + name + "!");
+        System.out.println("РџСЂРёРІРµС‚, " + name + "!");
     }
 
     static void checkYear(int year) {
         if (year%4 == 0 && (year%100 > 0 || year%400 ==0))
-            System.out.println("Год високосный");
+            System.out.println("Р“РѕРґ РІРёСЃРѕРєРѕСЃРЅС‹Р№");
         else
-            System.out.println("Год не високосный");
+            System.out.println("Р“РѕРґ РЅРµ РІРёСЃРѕРєРѕСЃРЅС‹Р№");
     }
 
     public static void main(String[] args) {
@@ -47,7 +47,7 @@ public class Hw1 {
         System.out.println(checkSumm(7,8));
         printSign(-2);
         System.out.println(isNegative(4));
-        printHello("Вася");
+        printHello("Р’Р°СЃСЏ");
         checkYear(1900);
     }
 }
